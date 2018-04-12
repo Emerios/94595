@@ -1,0 +1,33 @@
+* { padding: 0; margin: 0; outline: 0; }
+body, html { height: 100%; }
+body {        background: #e1e5e8;        font-family: Tahoma, Sans-Serif;        font-size: 12px;        line-height: 18px;        color: #565656;}
+a { color: #45c7ee; text-decoration: underline; cursor: pointer; }
+a:hover { text-decoration: none; }
+a img { border: 0; }
+h2 { font-size: 19px; line-height: 1; font-weight: normal; color: #464646; font-family: "Trebuchet MS", Tahoma, Sans-Serif; margin-bottom: 5px; }
+h3 { font-size: 16px; line-height: 1; font-weight:bold; color: #464646; font-family: "Trebuchet MS", Tahoma, Sans-Serif; margin-bottom: 5px; }
+p { padding-bottom: 18px; }
+
+.left, .alignleft { float: left; display: inline; }
+.right, .alignright { float: right; display: inline; }
+.cl { font-size: 0; line-height: 0; clear: both; display: block; height: 0; }
+
+#splash_page { width: 874px; margin: 0 auto; }
+#splash_page { padding: 0 28px; min-height: 100%; height: auto !important; height: 100%; background: url(../images/sp_bg.gif) repeat-y center 0; }
+#header { padding-bottom: 10px; }
+#imageHolder { height: 200px; background: url(../images/sp_slider.gif) repeat-x; border-radius:6px; -webkit-border-radius:6px; -moz-border-radius:6px; }
+.privacy_container{ width:99%; overflow:auto; height:400px; padding:5px 10px 0 0; }
+
+#img { height: 200px; text-align:center; padding:0px; background:url(../images/img.jpg) no-repeat bottom; }
+#img_t2p { height: 200px; text-align:center; padding:0px; background:url(../images/img_t2p.jpg) no-repeat bottom; }
+#img_ep { height: 200px; text-align:center; padding:0px; background:url(../images/img_ep.jpg) no-repeat bottom; }
+
+#main { border-bottom: solid 1px #e3e7e9; margin-bottom: 6px; width:100%; }
+.cols { padding: 15px 0 0 }
+.cols .col { margin-bottom:20px;  }
+
+#footer { height: 41px; background: url(../images/sp_footer.gif) repeat-x 0 0; line-height:41px; padding: 10px 10px 10px 22px; color: #fff; border-radius:6px; -webkit-border-radius:6px; -moz-border-radius:6px; }
+#footer p { padding-bottom: 0; }
+#footer a { color: #fff; text-decoration: none; }
+#footer a:hover { color: #237087; }
+#footer span { margin: 0 6px; }
